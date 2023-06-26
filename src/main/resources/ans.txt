@@ -1,0 +1,17 @@
+1- Setup selenium on your systems try using selenium with java and IDE as IntelliJ.
+Sol - Selenium with java successfully setup with IntelliJ as IDE on my system.
+
+4- Try to create xpaths of elements that disappears after a short span of time.
+Sol - Accessing Create a new wishlist element which disappears once we stop
+      hovering the Accounts & Lists icon.
+
+5- Why do we need axes methods to create xpaths? Try to create different xpaths using axes methods.
+Sol - XPath axes come in handy when the exact element tagname or its attribute value.
+      is dynamic and cannot be used to locate an element. In such cases locating
+      elements after traversing through child/sibling or parent becomes an easy
+      approach.
+      1. //*[@type='text']//following::input[@type='submit']
+      2. //*[@type='submit']//preceding::input
+      3. //*[@id='al-intro-benefits']//descendant::a
+      4. //*[@id='al-intro-benefits']//parent::div[@id='al-intro-benefit-1']
+
